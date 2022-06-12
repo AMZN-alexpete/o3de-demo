@@ -1,6 +1,7 @@
-# demo project
+# O3DE Demo Project
 
-A demo project
+
+## Install
 
 Open a command prompt and run this command:
 
@@ -8,17 +9,45 @@ Open a command prompt and run this command:
 git clone https://github.com/AMZN-alexpete/o3de-demo.git c:\o3de-demo
 ```
 
-Folder structure after command completes:
+## Running the Editor with Editor.cmd
+
+Running `Editor.cmd` will run the Editor and also run `Install.cmd` for you to make sure Python is installed and the engine is registered.
+The Asset Processor will open and take some time to prepare the assets and then you're ready!
+
+## Running the Game with Game.cmd
+
+Running `Game.cmd` will run the Game (launcher) and also run `Install.cmd` for you to make sure Python is installed and the engine is registered.
+The Asset Processor will also open but if you've already run the Editor it shouldn't need to process any additional assets. 
+
+
+### Folder structure
 ```
 c:\o3de-demo\
   o3de-sdk     <-- o3de SDK
   demo-project <-- project folder
-  Editor.bat   <-- shortcut to run editor
-  Game.bat     <-- shortcut to run game  
+  Editor.cmd   <-- shortcut to run editor
+  Game.cmd     <-- shortcut to run game  
+  Install.cmd  <-- shortcut to get python and register the engine
 ```
 
-# How I created this repository
+## Workflow
 
+### Non-engineers
+- work on game files in the `demo-project` folder
+- work on art and other files likely stored in an `art` folder that engineers do not use
+
+### Engineers
+- clone the engine fork into c:\o3de-demo\o3de and register it
+- modify engine and game code
+- create and upload new builds for non-engineers
+  The `CreateBuild.cmd` copies binary files from `build\windows_vs2019\bin\profile` into `bin`
+
+
+## How I created this repository
+
+These are the basic steps I followed to create this layout.
+
+### 1. Created the folder and boilerplate files
 ```
 # make the repository folder
 mkdir c:\o3de-demo
@@ -26,7 +55,13 @@ cd c:\o3de-demo
 
 # init the git repo
 git init .
+git checkout -b main
 
+# add .gitignore, .gitattributes (from o3de), LICENSE.txt, README.md and .cmd shortcuts
+```
+
+### 2. Get the engine fork
+```
 # clone the o3de fork into o3de folder
 git clone https://github.com/AMZN-alexpete/o3de.git
 
@@ -38,13 +73,19 @@ git add . && git commit -sm "changed engine name"
 
 # get python
 python\get_python.bat
+```
 
+### 3. Create an SDK in `o3de-sdk`
+```
 # configure 
 cmake -B build/windows_vs2019 -G "Visual Studio 16" -DLY_3RDPARTY_PATH=d:\git\3rdParty\ -DLY_VERSION_ENGINE_NAME=o3de-demo -DCMAKE_INSTALL_PREFIX=d:\demo\o3de-sdk
 
 # build sdk - outputs to d:\demo\o3de-sdk
 cmake --build build/windows_vs2019 --target INSTALL --config profile -- -m
+```
 
+### 4. Create the project
+```
 # create the project - 5 seconds
 scripts\o3de.bat create-project --project-path c:\o3de-demo\demo-project
 
@@ -59,10 +100,13 @@ cmake -B build/windows_vs2019 -G "Visual Studio 16" -DLY_3RDPARTY_PATH="d:/git/3
 
 # build project - 12 minutes
 cmake --build build/windows_vs2019 --target Editor demo-project.GameLauncher --config profile -- -m
+```
 
-# add .gitignore, .gitattributes (from o3de), LICENSE.txt, README.md and .cmd shortcuts
+### 5. Upload to GitHub
+```
 # add the git remote and push
 git remote add origin https://github.com/AMZN-alexpete/o3de-demo.git
 git push -u origin main --force
+```
 
 ```

@@ -1,0 +1,6 @@
+README.txt
+setup.py
+o3de.egg-info/PKG-INFO
+o3de.egg-info/SOURCES.txt
+o3de.egg-info/dependency_links.txt
+o3de.egg-info/top_level.txt

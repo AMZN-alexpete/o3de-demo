@@ -1,0 +1,20 @@
+{
+    "project_name": "demo-project",
+    "project_id": "{330A7F18-7A38-4D6D-B821-250CD67A727A}",
+    "origin": "The primary repo for demo-project goes here: i.e. http://www.mydomain.com",
+    "license": "What license demo-project uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "demo-project",
+    "summary": "A short description of demo-project.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "demo-project"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de-demo",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "demo-project"
+}

@@ -1,0 +1,21 @@
+{
+    "gem_name": "demo-project",
+    "display_name": "demo-project",
+    "license": "What license demo-project uses goes here: i.e. Apache-2.0 or MIT",
+    "license_url": "Link to the license web site goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT",
+    "origin": "The name of the originator goes here. i.e. XYZ Inc.",
+    "origin_url": "The primary repo for demo-project goes here: i.e. http://www.mydomain.com",
+    "type": "",
+    "summary": "A short description of demo-project.",
+    "canonical_tags": [
+        "Gem"
+    ],
+    "user_tags": [
+        "demo-project"
+    ],
+    "icon_path": "preview.png",
+    "requirements": "",
+    "documentation_url": "",
+    "dependencies": [
+    ]
+}

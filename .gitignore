@@ -2,3 +2,5 @@ o3de/
 *.swp
 *.bak
 *.bak0
+
+imgui.ini

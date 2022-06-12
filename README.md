@@ -11,10 +11,9 @@ git clone https://github.com/AMZN-alexpete/o3de-demo.git c:\o3de-demo
 Folder structure after command completes:
 ```
 c:\o3de-demo\
-  build <-- folder with latest build in it
   demo-project <-- project folder
-  editor.bat <-- shortcut to run editor
-  game.bat <-- shortcut to run game  
+  Editor.bat <-- shortcut to run editor
+  Game.bat <-- shortcut to run game  
 ```
 
 # How I created this repository

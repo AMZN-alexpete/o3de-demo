@@ -1,0 +1,284 @@
+{
+    "O3DE": {
+        "Gems": {
+            "demo-project": {
+                "Targets": {
+                    "demo-project": {
+                        "Modules":["demo-project.dll"]
+                    },
+                    "demo-project.Clients": {
+                    }
+                }
+            },
+            "AtomFont": {
+                "Targets": {
+                    "AtomFont": {
+                        "Modules":["AtomFont.dll"]
+                    }
+                }
+            },
+            "AtomImGuiTools": {
+                "Targets": {
+                    "AtomImGuiTools": {
+                        "Modules":["AtomImGuiTools.dll"]
+                    }
+                }
+            },
+            "Atom_RHI_DX12": {
+                "Targets": {
+                    "Atom_RHI_DX12.Private": {
+                        "Modules":["Atom_RHI_DX12.Private.dll"]
+                    }
+                }
+            },
+            "Atom_RHI_Null": {
+                "Targets": {
+                    "Atom_RHI_Null.Private": {
+                        "Modules":["Atom_RHI_Null.Private.dll"]
+                    }
+                }
+            },
+            "Atom_RHI_Vulkan": {
+                "Targets": {
+                    "Atom_RHI_Vulkan.Private": {
+                        "Modules":["Atom_RHI_Vulkan.Private.dll"]
+                    }
+                }
+            },
+            "Atom_Feature_Common": {
+                "Targets": {
+                    "Atom_Feature_Common": {
+                        "Modules":["Atom_Feature_Common.dll"]
+                    }
+                }
+            },
+            "Atom_RHI": {
+                "Targets": {
+                    "Atom_RHI.Private": {
+                        "Modules":["Atom_RHI.Private.dll"]
+                    }
+                }
+            },
+            "Atom_RPI": {
+                "Targets": {
+                    "Atom_RPI.Private": {
+                        "Modules":["Atom_RPI.Private.dll"]
+                    }
+                }
+            },
+            "CommonFeaturesAtom": {
+                "Targets": {
+                    "AtomLyIntegration_CommonFeatures": {
+                        "Modules":["AtomLyIntegration_CommonFeatures.dll"]
+                    }
+                }
+            },
+            "AtomViewportDisplayInfo": {
+                "Targets": {
+                    "AtomViewportDisplayInfo": {
+                        "Modules":["AtomViewportDisplayInfo.dll"]
+                    }
+                }
+            },
+            "Atom_Bootstrap": {
+                "Targets": {
+                    "Atom_Bootstrap": {
+                        "Modules":["Atom_Bootstrap.dll"]
+                    }
+                }
+            },
+            "Atom_Component_DebugCamera": {
+                "Targets": {
+                    "Atom_Component_DebugCamera": {
+                        "Modules":["Atom_Component_DebugCamera.dll"]
+                    }
+                }
+            },
+            "LmbrCentral": {
+                "Targets": {
+                    "LmbrCentral": {
+                        "Modules":["LmbrCentral.dll"]
+                    }
+                }
+            },
+            "EMotionFX": {
+                "Targets": {
+                    "EMotionFX": {
+                        "Modules":["EMotionFX.dll"]
+                    },
+                    "EMotionFX.Clients": {
+                    }
+                }
+            },
+            "EMotionFX_Atom": {
+                "Targets": {
+                    "EMotionFX_Atom": {
+                        "Modules":["EMotionFX_Atom.dll"]
+                    }
+                }
+            },
+            "ImguiAtom": {
+                "Targets": {
+                    "ImguiAtom": {
+                        "Modules":["ImguiAtom.dll"]
+                    }
+                }
+            },
+            "Atom_AtomBridge": {
+                "Targets": {
+                    "Atom_AtomBridge": {
+                        "Modules":["Atom_AtomBridge.dll"]
+                    },
+                    "Atom_AtomBridge.Clients": {
+                    }
+                }
+            },
+            "Atom": {
+                "Targets": {
+                    "Atom.Clients": {
+                    }
+                }
+            },
+            "AudioSystem": {
+                "Targets": {
+                    "AudioSystem": {
+                        "Modules":["AudioSystem.dll"]
+                    },
+                    "AudioSystem.Clients": {
+                    }
+                }
+            },
+            "AWSCore": {
+                "Targets": {
+                    "AWSCore": {
+                        "Modules":["AWSCore.dll"]
+                    },
+                    "AWSCore.Clients": {
+                    }
+                }
+            },
+            "CameraFramework": {
+                "Targets": {
+                    "CameraFramework": {
+                        "Modules":["CameraFramework.dll"]
+                    },
+                    "CameraFramework.Clients": {
+                    }
+                }
+            },
+            "DebugDraw": {
+                "Targets": {
+                    "DebugDraw": {
+                        "Modules":["DebugDraw.dll"]
+                    },
+                    "DebugDraw.Clients": {
+                    }
+                }
+            },
+            "GameState": {
+                "Targets": {
+                    "GameState": {
+                        "Modules":["GameState.dll"]
+                    },
+                    "GameState.Clients": {
+                    }
+                }
+            },
+            "ImGui": {
+                "Targets": {
+                    "ImGui": {
+                        "Modules":["ImGui.dll"]
+                    },
+                    "ImGui.Clients": {
+                    }
+                }
+            },
+            "TextureAtlas": {
+                "Targets": {
+                    "TextureAtlas": {
+                        "Modules":["TextureAtlas.dll"]
+                    },
+                    "TextureAtlas.Clients": {
+                    }
+                }
+            },
+            "LyShine": {
+                "Targets": {
+                    "LyShine": {
+                        "Modules":["LyShine.dll"]
+                    },
+                    "LyShine.Clients": {
+                    }
+                }
+            },
+            "PhysX": {
+                "Targets": {
+                    "PhysX": {
+                        "Modules":["PhysX.Gem.dll"]
+                    },
+                    "PhysX.Clients": {
+                    }
+                }
+            },
+            "SaveData": {
+                "Targets": {
+                    "SaveData": {
+                        "Modules":["SaveData.dll"]
+                    },
+                    "SaveData.Clients": {
+                    }
+                }
+            },
+            "ExpressionEvaluation": {
+                "Targets": {
+                    "ExpressionEvaluation": {
+                        "Modules":["ExpressionEvaluation.dll"]
+                    }
+                }
+            },
+            "ScriptEvents": {
+                "Targets": {
+                    "ScriptEvents": {
+                        "Modules":["ScriptEvents.dll"]
+                    },
+                    "ScriptEvents.Clients": {
+                    }
+                }
+            },
+            "ScriptCanvas": {
+                "Targets": {
+                    "ScriptCanvas": {
+                        "Modules":["ScriptCanvas.dll"]
+                    }
+                }
+            },
+            "ScriptCanvasPhysics": {
+                "Targets": {
+                    "ScriptCanvasPhysics": {
+                        "Modules":["ScriptCanvasPhysics.dll"]
+                    },
+                    "ScriptCanvasPhysics.Clients": {
+                    }
+                }
+            },
+            "StartingPointInput": {
+                "Targets": {
+                    "StartingPointInput": {
+                        "Modules":["StartingPointInput.dll"]
+                    },
+                    "StartingPointInput.Clients": {
+                    }
+                }
+            },
+            "WhiteBox": {
+                "Targets": {
+                    "WhiteBox": {
+                        "Modules":["WhiteBox.dll"]
+                    },
+                    "WhiteBox.Clients": {
+                    }
+                }
+            }
+        }
+    }
+}

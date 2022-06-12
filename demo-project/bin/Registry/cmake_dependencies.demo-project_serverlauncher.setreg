@@ -1,0 +1,100 @@
+{
+    "O3DE": {
+        "Gems": {
+            "Atom_Bootstrap": {
+                "Targets": {
+                    "Atom_Bootstrap": {
+                        "Modules":["Atom_Bootstrap.dll"]
+                    },
+                    "Atom_Bootstrap.Servers": {
+                    }
+                }
+            },
+            "Atom_RHI_DX12": {
+                "Targets": {
+                    "Atom_RHI_DX12.Private": {
+                        "Modules":["Atom_RHI_DX12.Private.dll"]
+                    }
+                }
+            },
+            "Atom_RHI_Null": {
+                "Targets": {
+                    "Atom_RHI_Null.Private": {
+                        "Modules":["Atom_RHI_Null.Private.dll"]
+                    }
+                }
+            },
+            "Atom_RHI_Vulkan": {
+                "Targets": {
+                    "Atom_RHI_Vulkan.Private": {
+                        "Modules":["Atom_RHI_Vulkan.Private.dll"]
+                    }
+                }
+            },
+            "Atom_Feature_Common": {
+                "Targets": {
+                    "Atom_Feature_Common": {
+                        "Modules":["Atom_Feature_Common.dll"]
+                    }
+                }
+            },
+            "Atom_RHI": {
+                "Targets": {
+                    "Atom_RHI.Private": {
+                        "Modules":["Atom_RHI.Private.dll"]
+                    }
+                }
+            },
+            "Atom_RPI": {
+                "Targets": {
+                    "Atom_RPI.Private": {
+                        "Modules":["Atom_RPI.Private.dll"]
+                    }
+                }
+            },
+            "CommonFeaturesAtom": {
+                "Targets": {
+                    "AtomLyIntegration_CommonFeatures": {
+                        "Modules":["AtomLyIntegration_CommonFeatures.dll"]
+                    },
+                    "AtomLyIntegration_CommonFeatures.Servers": {
+                    }
+                }
+            },
+            "LmbrCentral": {
+                "Targets": {
+                    "LmbrCentral": {
+                        "Modules":["LmbrCentral.dll"]
+                    }
+                }
+            },
+            "GradientSignal": {
+                "Targets": {
+                    "GradientSignal": {
+                        "Modules":["GradientSignal.dll"]
+                    },
+                    "GradientSignal.Servers": {
+                    }
+                }
+            },
+            "Camera": {
+                "Targets": {
+                    "Camera": {
+                        "Modules":["Camera.dll"]
+                    },
+                    "Camera.Servers": {
+                    }
+                }
+            },
+            "Maestro": {
+                "Targets": {
+                    "Maestro": {
+                        "Modules":["Maestro.dll"]
+                    },
+                    "Maestro.Servers": {
+                    }
+                }
+            }
+        }
+    }
+}

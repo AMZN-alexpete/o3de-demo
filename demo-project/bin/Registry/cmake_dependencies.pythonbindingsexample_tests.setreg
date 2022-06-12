@@ -1,0 +1,13 @@
+{
+    "O3DE": {
+        "Gems": {
+            "EditorPythonBindings": {
+                "Targets": {
+                    "EditorPythonBindings.Editor": {
+                        "Modules":["EditorPythonBindings.Editor.dll"]
+                    }
+                }
+            }
+        }
+    }
+}

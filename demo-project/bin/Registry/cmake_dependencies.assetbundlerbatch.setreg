@@ -1,0 +1,185 @@
+{
+    "O3DE": {
+        "Gems": {
+            "AtomShader": {
+                "Targets": {
+                    "Atom_Asset_Shader.Builders": {
+                        "Modules":["Atom_Asset_Shader.Builders.dll"]
+                    }
+                }
+            },
+            "Atom_Bootstrap": {
+                "Targets": {
+                    "Atom_Bootstrap": {
+                        "Modules":["Atom_Bootstrap.dll"]
+                    }
+                }
+            },
+            "Atom_Component_DebugCamera": {
+                "Targets": {
+                    "Atom_Component_DebugCamera": {
+                        "Modules":["Atom_Component_DebugCamera.dll"]
+                    }
+                }
+            },
+            "Atom_RHI_DX12": {
+                "Targets": {
+                    "Atom_RHI_DX12.Builders": {
+                        "Modules":["Atom_RHI_DX12.Builders.dll"]
+                    },
+                    "Atom_RHI_DX12.Private": {
+                        "Modules":["Atom_RHI_DX12.Private.dll"]
+                    }
+                }
+            },
+            "Atom_RHI_Metal": {
+                "Targets": {
+                    "Atom_RHI_Metal.Builders": {
+                        "Modules":["Atom_RHI_Metal.Builders.dll"]
+                    },
+                    "Atom_RHI_Metal.Private": {
+                        "Modules":["Atom_RHI_Metal.Private.dll"]
+                    }
+                }
+            },
+            "Atom_RHI_Vulkan": {
+                "Targets": {
+                    "Atom_RHI_Vulkan.Builders": {
+                        "Modules":["Atom_RHI_Vulkan.Builders.dll"]
+                    },
+                    "Atom_RHI_Vulkan.Private": {
+                        "Modules":["Atom_RHI_Vulkan.Private.dll"]
+                    }
+                }
+            },
+            "Atom_Feature_Common": {
+                "Targets": {
+                    "Atom_Feature_Common.Editor": {
+                        "Modules":["Atom_Feature_Common.Editor.dll"]
+                    },
+                    "Atom_Feature_Common.Builders": {
+                        "Modules":["Atom_Feature_Common.Builders.dll"]
+                    }
+                }
+            },
+            "Atom_RHI": {
+                "Targets": {
+                    "Atom_RHI.Private": {
+                        "Modules":["Atom_RHI.Private.dll"]
+                    }
+                }
+            },
+            "Atom_RHI_Null": {
+                "Targets": {
+                    "Atom_RHI_Null.Private": {
+                        "Modules":["Atom_RHI_Null.Private.dll"]
+                    }
+                }
+            },
+            "Atom_RPI": {
+                "Targets": {
+                    "Atom_RPI.Editor": {
+                        "Modules":["Atom_RPI.Editor.dll"]
+                    },
+                    "Atom_RPI.Builders": {
+                        "Modules":["Atom_RPI.Builders.dll"]
+                    }
+                }
+            },
+            "EditorPythonBindings": {
+                "Targets": {
+                    "EditorPythonBindings.Editor": {
+                        "Modules":["EditorPythonBindings.Editor.dll"]
+                    }
+                }
+            },
+            "GraphCanvas": {
+                "Targets": {
+                    "GraphCanvas.Editor": {
+                        "Modules":["GraphCanvas.Editor.dll"]
+                    }
+                }
+            },
+            "GraphModel": {
+                "Targets": {
+                    "GraphModel.Editor": {
+                        "Modules":["GraphModel.Editor.dll"]
+                    }
+                }
+            },
+            "ImageProcessingAtom": {
+                "Targets": {
+                    "ImageProcessingAtom.Editor": {
+                        "Modules":["ImageProcessingAtom.Editor.dll"]
+                    }
+                }
+            },
+            "AtomToolsFramework": {
+                "Targets": {
+                    "AtomToolsFramework.Editor": {
+                        "Modules":["AtomToolsFramework.Editor.dll"]
+                    }
+                }
+            },
+            "CommonFeaturesAtom": {
+                "Targets": {
+                    "AtomLyIntegration_CommonFeatures.Editor": {
+                        "Modules":["AtomLyIntegration_CommonFeatures.Editor.dll"]
+                    },
+                    "AtomLyIntegration_CommonFeatures.Builders": {
+                    }
+                }
+            },
+            "LmbrCentral": {
+                "Targets": {
+                    "LmbrCentral.Editor": {
+                        "Modules":["LmbrCentral.Editor.dll"]
+                    }
+                }
+            },
+            "GradientSignal": {
+                "Targets": {
+                    "GradientSignal.Editor": {
+                        "Modules":["GradientSignal.Editor.dll"]
+                    },
+                    "GradientSignal.Builders": {
+                    }
+                }
+            },
+            "Camera": {
+                "Targets": {
+                    "Camera.Editor": {
+                        "Modules":["Camera.Editor.dll"]
+                    },
+                    "Camera.Builders": {
+                    }
+                }
+            },
+            "Maestro": {
+                "Targets": {
+                    "Maestro.Editor": {
+                        "Modules":["Maestro.Editor.dll"]
+                    },
+                    "Maestro.Builders": {
+                    }
+                }
+            },
+            "PrefabBuilder": {
+                "Targets": {
+                    "PrefabBuilder.Builders": {
+                        "Modules":["PrefabBuilder.Builders.dll"]
+                    }
+                }
+            },
+            "SceneProcessing": {
+                "Targets": {
+                    "SceneProcessing.Editor": {
+                        "Modules":["SceneProcessing.Editor.dll"]
+                    },
+                    "SceneProcessing.Builders": {
+                    }
+                }
+            }
+        }
+    }
+}

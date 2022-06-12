@@ -1,0 +1,417 @@
+{
+    "O3DE": {
+        "Gems": {
+            "demo-project": {
+                "Targets": {
+                    "demo-project": {
+                        "Modules":["demo-project.dll"]
+                    },
+                    "demo-project.Builders": {
+                    }
+                }
+            },
+            "AtomFont": {
+                "Targets": {
+                    "AtomFont": {
+                        "Modules":["AtomFont.dll"]
+                    }
+                }
+            },
+            "AtomImGuiTools": {
+                "Targets": {
+                    "AtomImGuiTools": {
+                        "Modules":["AtomImGuiTools.dll"]
+                    }
+                }
+            },
+            "Atom_Bootstrap": {
+                "Targets": {
+                    "Atom_Bootstrap": {
+                        "Modules":["Atom_Bootstrap.dll"]
+                    }
+                }
+            },
+            "Atom_Component_DebugCamera": {
+                "Targets": {
+                    "Atom_Component_DebugCamera": {
+                        "Modules":["Atom_Component_DebugCamera.dll"]
+                    }
+                }
+            },
+            "Atom_RHI_DX12": {
+                "Targets": {
+                    "Atom_RHI_DX12.Builders": {
+                        "Modules":["Atom_RHI_DX12.Builders.dll"]
+                    },
+                    "Atom_RHI_DX12.Private": {
+                        "Modules":["Atom_RHI_DX12.Private.dll"]
+                    }
+                }
+            },
+            "Atom_RHI_Metal": {
+                "Targets": {
+                    "Atom_RHI_Metal.Builders": {
+                        "Modules":["Atom_RHI_Metal.Builders.dll"]
+                    },
+                    "Atom_RHI_Metal.Private": {
+                        "Modules":["Atom_RHI_Metal.Private.dll"]
+                    }
+                }
+            },
+            "Atom_RHI_Vulkan": {
+                "Targets": {
+                    "Atom_RHI_Vulkan.Builders": {
+                        "Modules":["Atom_RHI_Vulkan.Builders.dll"]
+                    },
+                    "Atom_RHI_Vulkan.Private": {
+                        "Modules":["Atom_RHI_Vulkan.Private.dll"]
+                    }
+                }
+            },
+            "Atom_Feature_Common": {
+                "Targets": {
+                    "Atom_Feature_Common.Editor": {
+                        "Modules":["Atom_Feature_Common.Editor.dll"]
+                    },
+                    "Atom_Feature_Common.Builders": {
+                        "Modules":["Atom_Feature_Common.Builders.dll"]
+                    }
+                }
+            },
+            "Atom_RHI": {
+                "Targets": {
+                    "Atom_RHI.Private": {
+                        "Modules":["Atom_RHI.Private.dll"]
+                    }
+                }
+            },
+            "Atom_RHI_Null": {
+                "Targets": {
+                    "Atom_RHI_Null.Private": {
+                        "Modules":["Atom_RHI_Null.Private.dll"]
+                    },
+                    "Atom_RHI_Null.Builders": {
+                        "Modules":["Atom_RHI_Null.Builders.dll"]
+                    }
+                }
+            },
+            "Atom_RPI": {
+                "Targets": {
+                    "Atom_RPI.Editor": {
+                        "Modules":["Atom_RPI.Editor.dll"]
+                    },
+                    "Atom_RPI.Builders": {
+                        "Modules":["Atom_RPI.Builders.dll"]
+                    }
+                }
+            },
+            "EditorPythonBindings": {
+                "Targets": {
+                    "EditorPythonBindings.Editor": {
+                        "Modules":["EditorPythonBindings.Editor.dll"]
+                    },
+                    "EditorPythonBindings.Builders": {
+                    }
+                }
+            },
+            "GraphCanvas": {
+                "Targets": {
+                    "GraphCanvas.Editor": {
+                        "Modules":["GraphCanvas.Editor.dll"]
+                    }
+                }
+            },
+            "GraphModel": {
+                "Targets": {
+                    "GraphModel.Editor": {
+                        "Modules":["GraphModel.Editor.dll"]
+                    }
+                }
+            },
+            "ImageProcessingAtom": {
+                "Targets": {
+                    "ImageProcessingAtom.Editor": {
+                        "Modules":["ImageProcessingAtom.Editor.dll"]
+                    }
+                }
+            },
+            "AtomToolsFramework": {
+                "Targets": {
+                    "AtomToolsFramework.Editor": {
+                        "Modules":["AtomToolsFramework.Editor.dll"]
+                    }
+                }
+            },
+            "CommonFeaturesAtom": {
+                "Targets": {
+                    "AtomLyIntegration_CommonFeatures.Editor": {
+                        "Modules":["AtomLyIntegration_CommonFeatures.Editor.dll"]
+                    }
+                }
+            },
+            "AtomViewportDisplayIcons": {
+                "Targets": {
+                    "AtomViewportDisplayIcons.Editor": {
+                        "Modules":["AtomViewportDisplayIcons.Editor.dll"]
+                    }
+                }
+            },
+            "AtomViewportDisplayInfo": {
+                "Targets": {
+                    "AtomViewportDisplayInfo": {
+                        "Modules":["AtomViewportDisplayInfo.dll"]
+                    }
+                }
+            },
+            "AtomShader": {
+                "Targets": {
+                    "Atom_Asset_Shader.Builders": {
+                        "Modules":["Atom_Asset_Shader.Builders.dll"]
+                    }
+                }
+            },
+            "LmbrCentral": {
+                "Targets": {
+                    "LmbrCentral.Editor": {
+                        "Modules":["LmbrCentral.Editor.dll"]
+                    }
+                }
+            },
+            "EMotionFX": {
+                "Targets": {
+                    "EMotionFX.Editor": {
+                        "Modules":["EMotionFX.Editor.dll"]
+                    },
+                    "EMotionFX.Builders": {
+                    }
+                }
+            },
+            "EMotionFX_Atom": {
+                "Targets": {
+                    "EMotionFX_Atom.Editor": {
+                        "Modules":["EMotionFX_Atom.Editor.dll"]
+                    }
+                }
+            },
+            "EditorModeFeedback": {
+                "Targets": {
+                    "EditorModeFeedback.Editor": {
+                        "Modules":["EditorModeFeedback.Editor.dll"]
+                    }
+                }
+            },
+            "ImguiAtom": {
+                "Targets": {
+                    "ImguiAtom": {
+                        "Modules":["ImguiAtom.dll"]
+                    }
+                }
+            },
+            "MaterialCanvas": {
+                "Targets": {
+                    "MaterialCanvas.Builders": {
+                    }
+                }
+            },
+            "MaterialEditor": {
+                "Targets": {
+                    "MaterialEditor.Builders": {
+                    }
+                }
+            },
+            "ShaderManagementConsole": {
+                "Targets": {
+                    "ShaderManagementConsole.Builders": {
+                    }
+                }
+            },
+            "Atom_AtomBridge": {
+                "Targets": {
+                    "Atom_AtomBridge.Editor": {
+                        "Modules":["Atom_AtomBridge.Editor.dll"]
+                    },
+                    "Atom_AtomBridge.Builders": {
+                    }
+                }
+            },
+            "Atom": {
+                "Targets": {
+                    "Atom.Builders": {
+                    }
+                }
+            },
+            "AudioSystem": {
+                "Targets": {
+                    "AudioSystem.Editor": {
+                        "Modules":["AudioSystem.Editor.dll"]
+                    },
+                    "AudioSystem.Builders": {
+                    }
+                }
+            },
+            "AWSCore": {
+                "Targets": {
+                    "AWSCore": {
+                        "Modules":["AWSCore.dll"]
+                    },
+                    "AWSCore.Editor": {
+                        "Modules":["AWSCore.Editor.dll"]
+                    },
+                    "AWSCore.Builders": {
+                    }
+                }
+            },
+            "CameraFramework": {
+                "Targets": {
+                    "CameraFramework": {
+                        "Modules":["CameraFramework.dll"]
+                    },
+                    "CameraFramework.Builders": {
+                    }
+                }
+            },
+            "DebugDraw": {
+                "Targets": {
+                    "DebugDraw.Editor": {
+                        "Modules":["DebugDraw.Editor.dll"]
+                    },
+                    "DebugDraw.Builders": {
+                    }
+                }
+            },
+            "ImGui": {
+                "Targets": {
+                    "ImGui.Editor": {
+                        "Modules":["ImGui.Editor.dll"]
+                    },
+                    "ImGui.Builders": {
+                    }
+                }
+            },
+            "GradientSignal": {
+                "Targets": {
+                    "GradientSignal.Editor": {
+                        "Modules":["GradientSignal.Editor.dll"]
+                    }
+                }
+            },
+            "SurfaceData": {
+                "Targets": {
+                    "SurfaceData.Editor": {
+                        "Modules":["SurfaceData.Editor.dll"]
+                    }
+                }
+            },
+            "Vegetation": {
+                "Targets": {
+                    "Vegetation.Editor": {
+                        "Modules":["Vegetation.Editor.dll"]
+                    }
+                }
+            },
+            "LandscapeCanvas": {
+                "Targets": {
+                    "LandscapeCanvas.Editor": {
+                        "Modules":["LandscapeCanvas.Editor.dll"]
+                    },
+                    "LandscapeCanvas.Builders": {
+                    }
+                }
+            },
+            "UiBasics": {
+                "Targets": {
+                    "UiBasics.Builders": {
+                    }
+                }
+            },
+            "LyShine": {
+                "Targets": {
+                    "LyShine.Builders": {
+                        "Modules":["LyShine.Builders.dll"]
+                    }
+                }
+            },
+            "PhysX": {
+                "Targets": {
+                    "PhysX.Editor": {
+                        "Modules":["PhysX.Editor.Gem.dll"]
+                    },
+                    "PhysX.Builders": {
+                    }
+                }
+            },
+            "PrimitiveAssets": {
+                "Targets": {
+                    "PrimitiveAssets.Builders": {
+                    }
+                }
+            },
+            "PrefabBuilder": {
+                "Targets": {
+                    "PrefabBuilder.Builders": {
+                        "Modules":["PrefabBuilder.Builders.dll"]
+                    }
+                }
+            },
+            "ExpressionEvaluation": {
+                "Targets": {
+                    "ExpressionEvaluation": {
+                        "Modules":["ExpressionEvaluation.dll"]
+                    }
+                }
+            },
+            "ScriptEvents": {
+                "Targets": {
+                    "ScriptEvents.Editor": {
+                        "Modules":["ScriptEvents.Editor.dll"]
+                    },
+                    "ScriptEvents.Builders": {
+                    }
+                }
+            },
+            "ScriptCanvas": {
+                "Targets": {
+                    "ScriptCanvas.Editor": {
+                        "Modules":["ScriptCanvas.Editor.dll"]
+                    }
+                }
+            },
+            "ScriptCanvasPhysics": {
+                "Targets": {
+                    "ScriptCanvasPhysics": {
+                        "Modules":["ScriptCanvasPhysics.dll"]
+                    },
+                    "ScriptCanvasPhysics.Builders": {
+                    }
+                }
+            },
+            "StartingPointInput": {
+                "Targets": {
+                    "StartingPointInput.Editor": {
+                        "Modules":["StartingPointInput.Editor.dll"]
+                    },
+                    "StartingPointInput.Builders": {
+                    }
+                }
+            },
+            "TextureAtlas": {
+                "Targets": {
+                    "TextureAtlas.Editor": {
+                        "Modules":["TextureAtlas.Editor.dll"]
+                    },
+                    "TextureAtlas.Builders": {
+                    }
+                }
+            },
+            "WhiteBox": {
+                "Targets": {
+                    "WhiteBox.Editor": {
+                        "Modules":["WhiteBox.Editor.dll"]
+                    },
+                    "WhiteBox.Builders": {
+                    }
+                }
+            }
+        }
+    }
+}

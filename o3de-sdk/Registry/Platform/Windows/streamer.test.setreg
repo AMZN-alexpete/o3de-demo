@@ -1,0 +1,32 @@
+{
+    "Amazon":
+    {
+        "AzCore":
+        {
+            "Streamer":
+            {
+                "ReportHardware": false,
+                "Profiles":
+                {
+                    "Generic":
+                    {
+                        "Stack":
+                        {
+                            "Native drive":
+                            {
+                                "$type": "AZ::IO::WindowsStorageDriveConfig",
+                                "$stack_after": "Drive",
+                                "MaxFileHandles": 1024,
+                                "MaxMetaDataCache": 1024,
+                                "Overcommit": 8,
+                                "EnableFileSharing": true,
+                                "EnableUnbufferedReads": true,
+                                "MinimalReporting": true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

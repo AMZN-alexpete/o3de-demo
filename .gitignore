@@ -1,6 +1,28 @@
+# Ignore the main engine folder 
 o3de/
+
+# Ignore SDK folders not needed 
+o3de-sdk/bin/
+o3de-sdk/build/
+o3de-sdk/cmake/
+o3de-sdk/**/Code/
+o3de-sdk/include
+o3de-sdk/lib/
+o3de-sdk/LauncherGenerator
+o3de-sdk/Gems/AtomContent/Sponza/
+o3de-sdk/Gems/AtomLyIntegration/CommonFeatures/Assets/Objects/Hermanubis
+o3de-sdk/Gems/Atom/Feature/Common/Assets/LightingPresets/Hermanubis
+o3de-sdk/Gems/Atom/Tools/MaterialEditor/Assets/MaterialEditor/ViewportModels/WIP
+o3de-sdk/Gems/MotionMatching
+o3de-sdk/Gems/ScriptCanvasTesting
+o3de-sdk/Gems/AtomTressFX
+o3de-sdk/Gems/DevTextures
+o3de-sdk/Templates
+o3de-sdk/Tools
+
 *.swp
 *.bak
 *.bak0
 
 imgui.ini
+

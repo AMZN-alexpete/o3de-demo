@@ -86,7 +86,7 @@ git push -u origin demo
 # configure 
 cmake -B build/windows_vs2019 -G "Visual Studio 16" -DLY_3RDPARTY_PATH=d:\git\3rdParty\ -DLY_VERSION_ENGINE_NAME=o3de-demo -DCMAKE_INSTALL_PREFIX=c:\o3de-demo\o3de-sdk
 
-# build sdk - outputs to d:\demo\o3de-sdk
+# build sdk - outputs to c:\o3de-demo\o3de-sdk
 cmake --build build/windows_vs2019 --target INSTALL --config profile -- -m
 ```
 

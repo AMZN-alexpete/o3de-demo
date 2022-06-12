@@ -1,10 +1,9 @@
-# Ignore the main engine folder 
+# ignore the main engine folder 
 o3de/
 
-# Ignore SDK folders not needed 
+# ignore SDK folders not needed 
 o3de-sdk/bin/
 o3de-sdk/build/
-o3de-sdk/cmake/
 o3de-sdk/**/Code/
 o3de-sdk/include
 o3de-sdk/lib/
@@ -20,9 +19,16 @@ o3de-sdk/Gems/DevTextures
 o3de-sdk/Templates
 o3de-sdk/Tools
 
+# ignore certain file extensions
 *.swp
 *.bak
 *.bak0
+*.pdb
+*.xz
 
+# ignore general python cache folders
+__pycache__
+
+# ignore specific files
 imgui.ini
 

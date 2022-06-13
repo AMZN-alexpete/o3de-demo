@@ -21,17 +21,32 @@
 /o3de-sdk/Tools
 
 # ignore certain file extensions
-*.swp
 *.bak
 *.bak0
 *.pdb
-*.xz
-*.un~
 *.pyc
+*.swatches
+*.swp
+*.un~
+*.xz
+*.log
 
-# ignore general python cache folders
+# ignore general local folders
 __pycache__
+.idea/
+.mayaSwatches/
+.vs/
+.vscode/
+**/*egg-info/**
+**/*egg-link
+[Uu]ser/
+.DS_Store
+_savebackup/
+
 
 # ignore specific files
 imgui.ini
+user*.cfg
+client*.cfg
+server*.cfg
 

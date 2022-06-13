@@ -25,7 +25,8 @@
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
-                    "Entity_[358300178712]"
+                    "Entity_[358300178712]",
+                    "Entity_[461550630790]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -210,7 +211,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 801997389493016694
+                            "EditorEntityId": 541548853237487848
                         }
                     }
                 },
@@ -327,7 +328,8 @@
                 },
                 "Component_[7984048488947365511]": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 7984048488947365511
+                    "Id": 7984048488947365511,
+                    "VisibilityFlag": false
                 },
                 "Component_[8118181039276487398]": {
                     "$type": "EditorOnlyEntityComponent",
@@ -335,7 +337,8 @@
                 },
                 "Component_[9189909764215270515]": {
                     "$type": "EditorLockComponent",
-                    "Id": 9189909764215270515
+                    "Id": 9189909764215270515,
+                    "Locked": true
                 }
             }
         },
@@ -562,10 +565,11 @@
                     "Parent Entity": "Entity_[1146574390643]",
                     "Transform Data": {
                         "Translate": [
-                            2.7961838245391846,
-                            0.0,
+                            2.794677257537842,
+                            0.29599499702453613,
                             0.8389358520507813
-                        ]
+                        ],
+                        "UniformScale": 2.0
                     }
                 },
                 "Component_[12291427538738101206]": {
@@ -583,11 +587,28 @@
                                             "baseColor.color": {
                                                 "$type": "Color",
                                                 "Value": [
-                                                    0.7142900824546814,
-                                                    0.6785687208175659,
+                                                    1.0,
+                                                    0.08332952111959457,
                                                     0.0,
                                                     1.0
                                                 ]
+                                            },
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.8163271546363831,
+                                                    0.06802471727132797,
+                                                    0.0,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 5.440000057220459
                                             }
                                         }
                                     }
@@ -646,6 +667,74 @@
                 "Component_[9991209121248069260]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 9991209121248069260
+                }
+            }
+        },
+        "Entity_[461550630790]": {
+            "Id": "Entity_[461550630790]",
+            "Name": "FX",
+            "Components": {
+                "Component_[11020196986442656678]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11020196986442656678
+                },
+                "Component_[11115987967185872551]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11115987967185872551
+                },
+                "Component_[11155719014603605040]": {
+                    "$type": "AZ::Render::EditorBloomComponent",
+                    "Id": 11155719014603605040,
+                    "Controller": {
+                        "Configuration": {
+                            "Enabled": true,
+                            "Intensity": 1.0
+                        }
+                    }
+                },
+                "Component_[12671414851698484433]": {
+                    "$type": "AZ::Render::EditorPostFxLayerComponent",
+                    "Id": 12671414851698484433
+                },
+                "Component_[13154848791814652572]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13154848791814652572
+                },
+                "Component_[14145223802108793269]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14145223802108793269
+                },
+                "Component_[15903345076011476812]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15903345076011476812
+                },
+                "Component_[16201679095575857833]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16201679095575857833
+                },
+                "Component_[17780804354948851697]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17780804354948851697,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            1.9199942350387573,
+                            2.6461682319641113,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[5168008821444470755]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5168008821444470755
+                },
+                "Component_[6454822779357520587]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6454822779357520587
+                },
+                "Component_[9652155718652992209]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9652155718652992209
                 }
             }
         }

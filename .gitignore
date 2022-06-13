@@ -27,6 +27,7 @@
 *.pdb
 *.xz
 *.un~
+*.pyc
 
 # ignore general python cache folders
 __pycache__

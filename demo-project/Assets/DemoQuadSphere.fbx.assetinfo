@@ -1,0 +1,45 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{8851D7B8-F8A6-540F-BE50-E666C008B747}",
+            "name": "DemoQuadSphere",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Primitives_grp",
+                    "RootNode.Primitives_grp.QuadSphere_UV_unit_1m"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Entire object"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "DemoQuadSphere",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Primitives_grp",
+                    "RootNode.Primitives_grp.QuadSphere_UV_unit_1m"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule",
+                        "updateMaterials": true
+                    }
+                ]
+            },
+            "id": "{1C6E097D-64A4-5F8A-8C9A-A0C88B1DD114}"
+        }
+    ]
+}

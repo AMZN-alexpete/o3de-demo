@@ -1,0 +1,45 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{8C04E89B-2EB6-5C9D-A829-7E43E32C5D6A}",
+            "name": "DemoCube",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Primitives_grp",
+                    "RootNode.Primitives_grp.Cube_UV_world_1m"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Entire object"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "DemoCube",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Primitives_grp",
+                    "RootNode.Primitives_grp.Cube_UV_world_1m"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule",
+                        "updateMaterials": true
+                    }
+                ]
+            },
+            "id": "{3D4CEAA7-AB7D-5FA4-87DC-F1A1A58AE9B7}"
+        }
+    ]
+}

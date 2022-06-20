@@ -2017,6 +2017,56 @@
         }
     },
     "Instances": {
+        "Instance_[403075914204]": {
+            "Source": "Prefabs/CustomPrefab.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[13779261417065011967]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[13779261417065011967]/Transform Data/Translate/0",
+                    "value": 12.762910842895508
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[13779261417065011967]/Transform Data/Translate/1",
+                    "value": 7.916965484619141
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[13779261417065011967]/Transform Data/Translate/2",
+                    "value": 2.1996207237243652
+                }
+            ]
+        },
+        "Instance_[415960816092]": {
+            "Source": "Prefabs/CustomPrefab.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[13779261417065011967]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[13779261417065011967]/Transform Data/Translate/0",
+                    "value": -16.565326690673828
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[13779261417065011967]/Transform Data/Translate/1",
+                    "value": 7.916965484619141
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[13779261417065011967]/Transform Data/Translate/2",
+                    "value": 2.1996207237243652
+                }
+            ]
+        },
         "Instance_[969525046280]": {
             "Source": "Prefabs/CustomPrefab.prefab",
             "Patches": [
@@ -2033,7 +2083,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[13779261417065011967]/Transform Data/Translate/1",
-                    "value": 18.241565704345703
+                    "value": 19.370746612548828
                 },
                 {
                     "op": "replace",

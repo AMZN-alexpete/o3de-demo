@@ -50,3 +50,4 @@ user*.cfg
 client*.cfg
 server*.cfg
 
+*.log

@@ -721,6 +721,7 @@
                 "Component_[3145540275132895193]": {
                     "$type": "EditorWhiteBoxComponent",
                     "Id": 3145540275132895193,
+                    "WhiteBoxData": "T01UQQgAAAAMAAAAEgAAAAAWAAAAvwAAAL8xappA/0WPQAAAAL8xappA/0WPQDhvhkAxappAAAAAvzhvhkAxappAAAAAvwAAAL8AAAC//0WPQAAAAL8AAAC//0WPQDhvhkAAAAC/AAAAvzhvhkAAAAC/+BYCAQAYAAUEAgAVAQcAAAAGAgEIAwEbAgkFAAEfAwsMBgIeBwgOBQIaBgYKBwIQBQMSBAMUBQQPBwMZBAoWAQQdBQcRBAQBAQUXBAUiAAocAgYhBgkNBQYDAgcgAwgjBwsLBggHAwkTBwoJAAtYDv6LfsAAAIA/AACAPzFqisD+i37AcN5swDFqisAAAIA/AACAPwAAgD/+i37AcN5swAAAgD9w3mzA/ot+wDFqisAAAIA/AACAPzFqisBw3mzA/ot+wHDebMAAAIA/AACAP/6LfsAAAIA/AACAP3DebMAAAIA/cN5swP6LfsAAAIA/AACAPwAAgD/+i37AAACAPwAAgD9w3mzAAACAPwAAgD/+i37AMWqKwAAAgD8AAIA/AACAPwAAgD/+i37AMWqKwAAAgD8AAIA/MWqKwAAAgD8xaorAcN5swP6LfsAAAIA/AACAPwAAgD8xaorAcN5swAAAgD8xaorAAACAP3DebMD+i37AAACAPwAAgD8xaorAAACAP3DebMAxaorAAACAP+AGCRUbHxkdISPoBgQIDhIWGBwVIBsiHygWAAAAAAAAAIAAAIA/AAAAAAAAAAAAAIA/AAAAgAAAAIAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAgL8AAAAAAAAAgAAAgL8AAAAAAACAPwAAAAAAAACAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAgAAAgD8AAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAwsATdmVydGV4LWhpZGRlbi1wcm9wcwEAAAAAxsANcG9seWdvbi1wcm9wc8QAAAAMAAAABgAAAAIAAAAGAAAABwAAAAUAAAACAAAABAAAAAUAAAAEAAAAAgAAAAQAAAAFAAAACwAAAAIAAAAKAAAACwAAAAMAAAACAAAAAgAAAAMAAAAKAAAAAgAAAAoAAAALAAAAAgAAAAIAAAACAAAAAwAAAAkAAAACAAAACAAAAAkAAAABAAAAAgAAAAAAAAABAAAACAAAAAIAAAAIAAAACQAAAAAAAAACAAAAAAAAAAEAAAAHAAAAAgAAAAYAAAAHAAAAHAA=",
                     "RenderData": {
                         "Faces": [
                             {
@@ -728,7 +729,7 @@
                                     "Position": [
                                         -0.5,
                                         -0.5,
-                                        0.5
+                                        4.825462818145752
                                     ],
                                     "UV": [
                                         1.0,
@@ -737,20 +738,24 @@
                                 },
                                 "Vertex2": {
                                     "Position": [
-                                        0.5,
+                                        4.477294445037842,
                                         -0.5,
-                                        0.5
+                                        4.825462818145752
                                     ],
                                     "UV": [
-                                        0.0,
+                                        -3.977294445037842,
                                         1.0
                                     ]
                                 },
                                 "Vertex3": {
                                     "Position": [
-                                        0.5,
-                                        0.5,
-                                        0.5
+                                        4.477294445037842,
+                                        4.201076507568359,
+                                        4.825462818145752
+                                    ],
+                                    "UV": [
+                                        -3.977294445037842,
+                                        -3.7010765075683594
                                     ]
                                 },
                                 "Normal": [
@@ -764,7 +769,7 @@
                                     "Position": [
                                         -0.5,
                                         -0.5,
-                                        0.5
+                                        4.825462818145752
                                     ],
                                     "UV": [
                                         1.0,
@@ -773,20 +778,24 @@
                                 },
                                 "Vertex2": {
                                     "Position": [
-                                        0.5,
-                                        0.5,
-                                        0.5
+                                        4.477294445037842,
+                                        4.201076507568359,
+                                        4.825462818145752
+                                    ],
+                                    "UV": [
+                                        -3.977294445037842,
+                                        -3.7010765075683594
                                     ]
                                 },
                                 "Vertex3": {
                                     "Position": [
                                         -0.5,
-                                        0.5,
-                                        0.5
+                                        4.201076507568359,
+                                        4.825462818145752
                                     ],
                                     "UV": [
                                         1.0,
-                                        0.0
+                                        -3.7010765075683594
                                     ]
                                 },
                                 "Normal": [
@@ -799,29 +808,33 @@
                                 "Vertex1": {
                                     "Position": [
                                         -0.5,
-                                        0.5,
+                                        4.201076507568359,
                                         -0.5
                                     ],
                                     "UV": [
                                         1.0,
-                                        0.0
+                                        -3.7010765075683594
                                     ]
                                 },
                                 "Vertex2": {
                                     "Position": [
-                                        0.5,
-                                        0.5,
+                                        4.477294445037842,
+                                        4.201076507568359,
                                         -0.5
+                                    ],
+                                    "UV": [
+                                        -3.977294445037842,
+                                        -3.7010765075683594
                                     ]
                                 },
                                 "Vertex3": {
                                     "Position": [
-                                        0.5,
+                                        4.477294445037842,
                                         -0.5,
                                         -0.5
                                     ],
                                     "UV": [
-                                        0.0,
+                                        -3.977294445037842,
                                         1.0
                                     ]
                                 },
@@ -835,22 +848,22 @@
                                 "Vertex1": {
                                     "Position": [
                                         -0.5,
-                                        0.5,
+                                        4.201076507568359,
                                         -0.5
                                     ],
                                     "UV": [
                                         1.0,
-                                        0.0
+                                        -3.7010765075683594
                                     ]
                                 },
                                 "Vertex2": {
                                     "Position": [
-                                        0.5,
+                                        4.477294445037842,
                                         -0.5,
                                         -0.5
                                     ],
                                     "UV": [
-                                        0.0,
+                                        -3.977294445037842,
                                         1.0
                                     ]
                                 },
@@ -885,20 +898,24 @@
                                 },
                                 "Vertex2": {
                                     "Position": [
-                                        0.5,
+                                        4.477294445037842,
                                         -0.5,
                                         -0.5
                                     ],
                                     "UV": [
-                                        0.0,
+                                        -3.977294445037842,
                                         1.0
                                     ]
                                 },
                                 "Vertex3": {
                                     "Position": [
-                                        0.5,
+                                        4.477294445037842,
                                         -0.5,
-                                        0.5
+                                        4.825462818145752
+                                    ],
+                                    "UV": [
+                                        -3.977294445037842,
+                                        -4.325462818145752
                                     ]
                                 },
                                 "Normal": [
@@ -921,20 +938,24 @@
                                 },
                                 "Vertex2": {
                                     "Position": [
-                                        0.5,
+                                        4.477294445037842,
                                         -0.5,
-                                        0.5
+                                        4.825462818145752
+                                    ],
+                                    "UV": [
+                                        -3.977294445037842,
+                                        -4.325462818145752
                                     ]
                                 },
                                 "Vertex3": {
                                     "Position": [
                                         -0.5,
                                         -0.5,
-                                        0.5
+                                        4.825462818145752
                                     ],
                                     "UV": [
                                         1.0,
-                                        0.0
+                                        -4.325462818145752
                                     ]
                                 },
                                 "Normal": [
@@ -946,7 +967,7 @@
                             {
                                 "Vertex1": {
                                     "Position": [
-                                        0.5,
+                                        4.477294445037842,
                                         -0.5,
                                         -0.5
                                     ],
@@ -957,20 +978,24 @@
                                 },
                                 "Vertex2": {
                                     "Position": [
-                                        0.5,
-                                        0.5,
+                                        4.477294445037842,
+                                        4.201076507568359,
                                         -0.5
                                     ],
                                     "UV": [
                                         1.0,
-                                        0.0
+                                        -3.7010765075683594
                                     ]
                                 },
                                 "Vertex3": {
                                     "Position": [
-                                        0.5,
-                                        0.5,
-                                        0.5
+                                        4.477294445037842,
+                                        4.201076507568359,
+                                        4.825462818145752
+                                    ],
+                                    "UV": [
+                                        -4.325462818145752,
+                                        -3.7010765075683594
                                     ]
                                 },
                                 "Normal": [
@@ -982,7 +1007,7 @@
                             {
                                 "Vertex1": {
                                     "Position": [
-                                        0.5,
+                                        4.477294445037842,
                                         -0.5,
                                         -0.5
                                     ],
@@ -993,19 +1018,23 @@
                                 },
                                 "Vertex2": {
                                     "Position": [
-                                        0.5,
-                                        0.5,
-                                        0.5
+                                        4.477294445037842,
+                                        4.201076507568359,
+                                        4.825462818145752
+                                    ],
+                                    "UV": [
+                                        -4.325462818145752,
+                                        -3.7010765075683594
                                     ]
                                 },
                                 "Vertex3": {
                                     "Position": [
-                                        0.5,
+                                        4.477294445037842,
                                         -0.5,
-                                        0.5
+                                        4.825462818145752
                                     ],
                                     "UV": [
-                                        0.0,
+                                        -4.325462818145752,
                                         1.0
                                     ]
                                 },
@@ -1018,19 +1047,19 @@
                             {
                                 "Vertex1": {
                                     "Position": [
-                                        0.5,
-                                        0.5,
+                                        4.477294445037842,
+                                        4.201076507568359,
                                         -0.5
                                     ],
                                     "UV": [
-                                        0.0,
+                                        -3.977294445037842,
                                         1.0
                                     ]
                                 },
                                 "Vertex2": {
                                     "Position": [
                                         -0.5,
-                                        0.5,
+                                        4.201076507568359,
                                         -0.5
                                     ],
                                     "UV": [
@@ -1041,12 +1070,12 @@
                                 "Vertex3": {
                                     "Position": [
                                         -0.5,
-                                        0.5,
-                                        0.5
+                                        4.201076507568359,
+                                        4.825462818145752
                                     ],
                                     "UV": [
                                         1.0,
-                                        0.0
+                                        -4.325462818145752
                                     ]
                                 },
                                 "Normal": [
@@ -1058,31 +1087,35 @@
                             {
                                 "Vertex1": {
                                     "Position": [
-                                        0.5,
-                                        0.5,
+                                        4.477294445037842,
+                                        4.201076507568359,
                                         -0.5
                                     ],
                                     "UV": [
-                                        0.0,
+                                        -3.977294445037842,
                                         1.0
                                     ]
                                 },
                                 "Vertex2": {
                                     "Position": [
                                         -0.5,
-                                        0.5,
-                                        0.5
+                                        4.201076507568359,
+                                        4.825462818145752
                                     ],
                                     "UV": [
                                         1.0,
-                                        0.0
+                                        -4.325462818145752
                                     ]
                                 },
                                 "Vertex3": {
                                     "Position": [
-                                        0.5,
-                                        0.5,
-                                        0.5
+                                        4.477294445037842,
+                                        4.201076507568359,
+                                        4.825462818145752
+                                    ],
+                                    "UV": [
+                                        -3.977294445037842,
+                                        -4.325462818145752
                                     ]
                                 },
                                 "Normal": [
@@ -1095,12 +1128,12 @@
                                 "Vertex1": {
                                     "Position": [
                                         -0.5,
-                                        0.5,
+                                        4.201076507568359,
                                         -0.5
                                     ],
                                     "UV": [
                                         1.0,
-                                        0.0
+                                        -3.7010765075683594
                                     ]
                                 },
                                 "Vertex2": {
@@ -1118,10 +1151,10 @@
                                     "Position": [
                                         -0.5,
                                         -0.5,
-                                        0.5
+                                        4.825462818145752
                                     ],
                                     "UV": [
-                                        0.0,
+                                        -4.325462818145752,
                                         1.0
                                     ]
                                 },
@@ -1135,30 +1168,34 @@
                                 "Vertex1": {
                                     "Position": [
                                         -0.5,
-                                        0.5,
+                                        4.201076507568359,
                                         -0.5
                                     ],
                                     "UV": [
                                         1.0,
-                                        0.0
+                                        -3.7010765075683594
                                     ]
                                 },
                                 "Vertex2": {
                                     "Position": [
                                         -0.5,
                                         -0.5,
-                                        0.5
+                                        4.825462818145752
                                     ],
                                     "UV": [
-                                        0.0,
+                                        -4.325462818145752,
                                         1.0
                                     ]
                                 },
                                 "Vertex3": {
                                     "Position": [
                                         -0.5,
-                                        0.5,
-                                        0.5
+                                        4.201076507568359,
+                                        4.825462818145752
+                                    ],
+                                    "UV": [
+                                        -4.325462818145752,
+                                        -3.7010765075683594
                                     ]
                                 },
                                 "Normal": [

@@ -17,7 +17,11 @@
             },
             "Component_[14126657869720434043]": {
                 "$type": "EditorEntitySortComponent",
-                "Id": 14126657869720434043
+                "Id": 14126657869720434043,
+                "Child Entity Order": [
+                    "Entity_[1176639161715]",
+                    "Entity_[395931953636]"
+                ]
             },
             "Component_[15230859088967841193]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -206,7 +210,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 8929576024571800510
+                            "EditorEntityId": 6829613881978359326
                         }
                     }
                 },
@@ -547,6 +551,75 @@
                 "Component_[931091830724002070]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 931091830724002070
+                }
+            }
+        },
+        "Entity_[395931953636]": {
+            "Id": "Entity_[395931953636]",
+            "Name": "democube",
+            "Components": {
+                "Component_[10522100235019087296]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 10522100235019087296,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{1C2A3644-6468-53A0-9548-C1E044124C32}",
+                                    "subId": 280985814
+                                },
+                                "loadBehavior": "PreLoad"
+                            }
+                        }
+                    }
+                },
+                "Component_[12558174912562408685]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12558174912562408685
+                },
+                "Component_[15697019680220935292]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15697019680220935292
+                },
+                "Component_[15912966249523939067]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15912966249523939067
+                },
+                "Component_[17649103452056058405]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17649103452056058405
+                },
+                "Component_[2137003139658548655]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2137003139658548655,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            4.993752956390381,
+                            -0.18796348571777344,
+                            -0.0000019073486328125
+                        ]
+                    }
+                },
+                "Component_[4615511394717118067]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4615511394717118067
+                },
+                "Component_[6249571677868718943]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6249571677868718943
+                },
+                "Component_[6669152452568108964]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6669152452568108964
+                },
+                "Component_[7790798798632062051]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7790798798632062051
+                },
+                "Component_[8472833137509515975]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8472833137509515975
                 }
             }
         }
